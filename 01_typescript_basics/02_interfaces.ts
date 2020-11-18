@@ -32,6 +32,7 @@ interface Person {
   [key: string]: any;
   hello(): string;
 }
+// read only in case I want to assign a prop only on initialization not directly
 
 let user: Person = {
   name: "Zura",
